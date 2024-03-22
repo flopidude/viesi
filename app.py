@@ -2,7 +2,7 @@
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask
-import mysql
+import mysql.connector
 
 mydb = mysql.connector.connect(host="blincix.mysql.pythonanywhere-services.com", user="blincix", passwd="SoarinSet07", database="default")
 
